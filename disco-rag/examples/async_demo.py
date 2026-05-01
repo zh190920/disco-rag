@@ -21,10 +21,10 @@ async def main():
     # ======== 配置 ========
     config = AsyncPipelineConfig(
         llm=AsyncLLMConfig(
-            api_base=os.environ.get("DISCO_RAG_API_BASE", "https://open.bigmodel.cn/api/paas/v4"),
-            api_key=os.environ.get("DISCO_RAG_API_KEY", ""),
-            model_name=os.environ.get("DISCO_RAG_MODEL", "glm-4-flash"),
-            max_concurrency=10,          # 最多10个并发LLM请求
+            api_base="https://api.siliconflow.cn/v1",
+            api_key="sk-wgholxssmljlxivhonnjivryzmoxzfbfxunpswfmncuaydlx",
+            model_name="Qwen/Qwen3-30B-A3B-Instruct-2507",
+            max_concurrency=20,          # 最多10个并发LLM请求
             requests_per_minute=60,      # 每分钟60个请求
             enable_cache=True,           # 启用缓存
         ),

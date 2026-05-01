@@ -17,9 +17,9 @@ logger = logging.getLogger(__name__)
 @dataclass
 class LLMConfig:
     """LLM配置"""
-    api_base: str = "https://open.bigmodel.cn/api/paas/v4"
-    api_key: str = ""
-    model_name: str = "glm-4-flash"
+    api_base: str = "https://api.siliconflow.cn/v1"
+    api_key: str = "sk-wgholxssmljlxivhonnjivryzmoxzfbfxunpswfmncuaydlx"
+    model_name: str = "Qwen/Qwen3-30B-A3B-Instruct-2507"
     temperature: float = 0.1
     max_tokens: int = 4096
     timeout: int = 120
