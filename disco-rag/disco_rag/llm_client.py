@@ -18,8 +18,8 @@ logger = logging.getLogger(__name__)
 class LLMConfig:
     """LLM配置"""
     api_base: str = "https://api.siliconflow.cn/v1"
-    api_key: str = "sk-wgholxssmljlxivhonnjivryzmoxzfbfxunpswfmncuaydlx"
-    model_name: str = "Qwen/Qwen3-30B-A3B-Instruct-2507"
+    api_key: str = ""
+    model_name: str = ""
     temperature: float = 0.1
     max_tokens: int = 4096
     timeout: int = 120

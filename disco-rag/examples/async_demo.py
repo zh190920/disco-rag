@@ -22,8 +22,8 @@ async def main():
     config = AsyncPipelineConfig(
         llm=AsyncLLMConfig(
             api_base="https://api.siliconflow.cn/v1",
-            api_key="sk-wgholxssmljlxivhonnjivryzmoxzfbfxunpswfmncuaydlx",
-            model_name="Qwen/Qwen3-30B-A3B-Instruct-2507",
+            api_key="",
+            model_name="",
             max_concurrency=20,          # 最多10个并发LLM请求
             requests_per_minute=60,      # 每分钟60个请求
             enable_cache=True,           # 启用缓存
