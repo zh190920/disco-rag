@@ -1,2 +1,10 @@
+# Disco-RAG 依赖
+
+# === 同步版本 ===
 openai>=1.0.0
-sentence-transformers>=2.0.0
+
+# === 异步高性能版本（推荐） ===
+httpx>=0.24.0
+
+# === 可选：语义检索 ===
+# sentence-transformers>=2.0.0
