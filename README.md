@@ -103,9 +103,6 @@ answer = AnswerGenerator(llm).generate(question, outline, trees, net)
 - **灵活使用**：支持CLI、Pipeline一键运行、逐步模块调用三种模式
 
 
-
-好的，我来对 Disco-RAG 的每个模块进行深度拆解，从设计动机、核心原理到实现细节逐一讲透。
-
 ---
 
 
